@@ -188,8 +188,30 @@ void showCharactor(int charcode, int charColor, int x, int y)
         //fillPixel(charColor, x+3,y+3);
         fillPixel(charColor, x+3,y+4);
     }
-        else if(charcode == 0x44) //D
-        {}
+
+    else if(charcode == 0x44) //D
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        //fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
         
     else if(charcode == 0x45) //E
     {
@@ -237,12 +259,77 @@ void showCharactor(int charcode, int charColor, int x, int y)
         //fillPixel(charColor, x+3,y+3);
         //fillPixel(charColor, x+3,y+4);
     }
-        else if(charcode == 0x47) //G
-    {}
-        else if(charcode == 0x48) //H
-    {}
-        else if(charcode == 0x49) //I
-    {}
+
+    else if(charcode == 0x47) //G
+    {
+        //fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x48) //H
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        //fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        //fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
+    else if(charcode == 0x49) //I
+    {
+        //fillPixel(charColor, x,y);
+        //fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        //fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        //fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
 
     else if(charcode == 0x4a) //J
     {
@@ -268,10 +355,53 @@ void showCharactor(int charcode, int charColor, int x, int y)
         //fillPixel(charColor, x+3,y+4);
     }
         
-        if(charcode == 0x4b) //K
-    {}
-        if(charcode == 0x4c) //L
-    {}
+    else if(charcode == 0x4b) //K
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        //fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        //fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        //fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x4c) //L
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        //fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        //fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        //fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
 
     else if(charcode == 0x4d) //M
     {
@@ -320,7 +450,8 @@ void showCharactor(int charcode, int charColor, int x, int y)
         fillPixel(charColor, x+3,y+3);
         fillPixel(charColor, x+3,y+4);
     }
-        if(charcode == 0x4f) //O
+
+    else if(charcode == 0x4f) //O
     {
         //fillPixel(charColor, x,y);
         fillPixel(charColor, x,y+1);
@@ -367,14 +498,101 @@ void showCharactor(int charcode, int charColor, int x, int y)
         //fillPixel(charColor, x+3,y+4);
     
     }
-        if(charcode == 0x51) //Q
-    {}
-        if(charcode == 0x52) //R
-    {}
-        if(charcode == 0x53) //S
-    {}
-        if(charcode == 0x54) //T
-    {}
+
+    else if(charcode == 0x51) //Q
+    {
+        //fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        //fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x52) //R
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        //fillPixel(charColor, x+2,y+4);
+        //fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x53) //S
+    {
+        //fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        //fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x54) //T
+    {
+        //fillPixel(charColor, x,y);
+        //fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        //fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        //fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        fillPixel(charColor, x+2,y);
+        fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        //fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
 
     else if(charcode == 0x55) //U
     {
@@ -399,14 +617,102 @@ void showCharactor(int charcode, int charColor, int x, int y)
         fillPixel(charColor, x+3,y+3);
         //fillPixel(charColor, x+3,y+4);
     }
-        if(charcode == 0x56) //V
-    {}
-        if(charcode == 0x57) //W
-    {}
-        if(charcode == 0x58) //X
-    {}
-        if(charcode == 0x59) //Y
-    {}
+
+    else if(charcode == 0x56) //V
+    {
+        //fillPixel(charColor, x,y);
+        //fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        //fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
+    
+    else if(charcode == 0x57) //W
+    {
+        fillPixel(charColor, x,y);
+        fillPixel(charColor, x,y+1);
+        fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        fillPixel(charColor, x+1,y+3);
+        fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        //fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
+
+    else if(charcode == 0x58) //X
+    {
+        fillPixel(charColor, x,y);
+        //fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        fillPixel(charColor, x,y+3);
+        fillPixel(charColor, x,y+4);
+        //fillPixel(charColor, x+1,y);
+        fillPixel(charColor, x+1,y+1);
+        fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        //fillPixel(charColor, x+2,y+3);
+        //fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        //fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        fillPixel(charColor, x+3,y+3);
+        fillPixel(charColor, x+3,y+4);
+    }
+       
+    else if(charcode == 0x59) //Y
+    {
+        //fillPixel(charColor, x,y);
+        //fillPixel(charColor, x,y+1);
+        //fillPixel(charColor, x,y+2);
+        //fillPixel(charColor, x,y+3);
+        //fillPixel(charColor, x,y+4);
+        fillPixel(charColor, x+1,y);
+        fillPixel(charColor, x+1,y+1);
+        //fillPixel(charColor, x+1,y+2);
+        //fillPixel(charColor, x+1,y+3);
+        //fillPixel(charColor, x+1,y+4);
+        //fillPixel(charColor, x+2,y);
+        //fillPixel(charColor, x+2,y+1);
+        fillPixel(charColor, x+2,y+2);
+        fillPixel(charColor, x+2,y+3);
+        fillPixel(charColor, x+2,y+4);
+        fillPixel(charColor, x+3,y);
+        fillPixel(charColor, x+3,y+1);
+        //fillPixel(charColor, x+3,y+2);
+        //fillPixel(charColor, x+3,y+3);
+        //fillPixel(charColor, x+3,y+4);
+    }
 
     else if(charcode == 0x5a) //Z
     {
